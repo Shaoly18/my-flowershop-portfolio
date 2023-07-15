@@ -10,9 +10,7 @@ body {
 
 .paragraph {
     color: #27272799;
-    font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     max-width: 650px;
     margin-top: 0px;
@@ -25,7 +23,7 @@ body {
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
-    font-size: 10spx;
+    font-size: 20px;
     font-weight: 700;
     border: 0;
 }
@@ -43,15 +41,47 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
 #header-pic {
     width: 635px;
     height: 800px;
 }
+
 /* main styles */
 /* 1st section */
-.first-section{
-  padding: 178px 650px 48px;
+.first-section {
+    text-align: center;
+    padding: 178px 650px 48px;
 }
-#second-tittle{
+
+#second-tittle {
     font-size: 40px;
+}
+
+/* 2nd section */
+.second-section {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.first-pic {
+    width: 310px;
+    height: 428px;
+    background: #a7216226;
+}
+
+.second-pic {
+    width: 370px;
+    height: 370px;
+    background: #0597a026;
+}
+
+.third-pic {
+    width: 314px;
+    height: 471px;
+    background: #477d1126;
+}
+.para{
+    text-decoration-line: underline;
 }

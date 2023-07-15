@@ -49,9 +49,19 @@ body {
 
 /* main styles */
 /* 1st section */
+main {
+    /* max-width: 1140px; */
+    margin: auto;
+}
+
 .first-section {
+    padding: 178px 0px 48px;
     text-align: center;
-    padding: 178px 650px 48px;
+}
+
+#first-section-para {
+    text-align: center;
+    margin: auto;
 }
 
 #second-tittle {
@@ -68,20 +78,57 @@ body {
 .first-pic {
     width: 310px;
     height: 428px;
+    padding: 110px 76px 0px;
+    border-radius: 300px 300px 0px 0px;
+    margin: 131px 0;
     background: #a7216226;
 }
 
 .second-pic {
     width: 370px;
     height: 370px;
+    padding: 170px 47px 0px;
+    border-radius: 300px 300px 0px 0px;
+    margin: 131px 0;
     background: #0597a026;
 }
 
 .third-pic {
     width: 314px;
     height: 471px;
+    padding: 67px 76px 0px;
+    border-radius: 300px 300px 0px 0px;
+    margin: 131px 0;
     background: #477d1126;
 }
-.para{
+
+.para {
+    text-align: center;
     text-decoration-line: underline;
+}
+
+/* forth section */
+.forth-section {
+    /* padding:100px 430px; */
+    border-radius: 8px;
+    background: #dfced20d;
+    display: flex;
+    /* margin: none; */
+    justify-content: space-around;
+
+}
+#forth-tittle{
+    font-size: 40px;
+}
+#off-pink{
+    color: #E55473;
+}
+#forth-content{
+    padding: 230px 0px 160px 423px;
+    text-align: center;
+}
+#forth-section-pic {
+    width: 318px;
+    height: 420px;
+    padding:100px 430px 0px 100px;
 }

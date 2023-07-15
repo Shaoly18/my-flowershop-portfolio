@@ -15,6 +15,7 @@ body {
     font-style: normal;
     font-weight: 400;
     max-width: 650px;
+    margin-top: 0px;
 }
 
 .button-full {
@@ -34,15 +35,23 @@ body {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .header-content {
-    padding: 197px 240px 0px;
+    padding: 80px 240px 0px;
     display: flex;
     justify-content: space-around;
 }
-
 #header-pic {
     width: 635px;
     height: 800px;
+}
+/* main styles */
+/* 1st section */
+.first-section{
+  padding: 178px 650px 48px;
+}
+#second-tittle{
+    font-size: 40px;
 }

@@ -80,7 +80,8 @@ main {
     height: 428px;
     padding: 110px 76px 0px;
     border-radius: 300px 300px 0px 0px;
-    margin: 131px 0;
+    /* margin: 131px 0px 48px; */
+    margin-bottom: 131px;
     background: #a7216226;
 }
 
@@ -89,7 +90,7 @@ main {
     height: 370px;
     padding: 170px 47px 0px;
     border-radius: 300px 300px 0px 0px;
-    margin: 131px 0;
+    margin-bottom: 131px;
     background: #0597a026;
 }
 
@@ -98,7 +99,7 @@ main {
     height: 471px;
     padding: 67px 76px 0px;
     border-radius: 300px 300px 0px 0px;
-    margin: 131px 0;
+    margin-bottom: 131px;
     background: #477d1126;
 }
 
@@ -113,22 +114,119 @@ main {
     border-radius: 8px;
     background: #dfced20d;
     display: flex;
-    /* margin: none; */
+    margin-top:100px;
     justify-content: space-around;
 
 }
-#forth-tittle{
+
+#forth-tittle {
     font-size: 40px;
 }
-#off-pink{
+
+.text-pink {
     color: #E55473;
 }
-#forth-content{
+
+#forth-content {
     padding: 230px 0px 160px 423px;
     text-align: center;
 }
+
 #forth-section-pic {
     width: 318px;
     height: 420px;
-    padding:100px 430px 0px 100px;
+    padding: 100px 430px 0px 100px;
+}
+
+/*section-pphotos */
+.section-photos {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+/* sixth section */
+#sixth-section {
+    border-radius: 8px;
+    /* padding: 126px 240px; */
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 126px 0px 120px;
+
+}
+
+.text {
+    gap: 48px;
+}
+
+#email {
+    padding: 12px 513px 12px 15px;
+    border-radius: 8px;
+    background: #FFF;
+    border:0;
+}
+#mail-button{
+    margin:48px 0 120px;
+}
+/* extra section */
+#extra{
+    width: 1150px;
+height: 180px;
+    background-color:#baf3f3;
+    display: flex;
+   padding:80px 150px;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.extra-header{
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 300px;
+    font-style: oblique;
+    font-stretch: expanded;
+}
+.extra-text{
+    display: flex;
+    align-items: center;
+}
+.extra-pic{
+    width: 25px;
+    height: 35px;
+}
+.extra-box{
+    display:flexbox;
+}
+.extra-para{
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 300px;
+    margin-top: 10px;
+}
+/* footer */
+footer{
+    background: #111010;
+    margin-top: 126px;
+
+}
+#footer-text{
+    color: #ffffffe6;
+    padding: 126px 0px;
+    text-align: center;
+
+}
+#shop{
+    color: #FFF;
+}
+#footer-paragraph{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 650px;
+}
+#small{
+    color: #ffffff66;
+    margin-top: 32px;
 }
